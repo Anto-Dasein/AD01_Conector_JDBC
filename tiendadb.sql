@@ -14,4 +14,4 @@ CREATE TABLE pedidos (
                          cantidad INT NOT NULL,
                          id_producto INT,
                          FOREIGN KEY (id_producto) REFERENCES productos(id_producto)
-);                   FOREIGN KEY (id_producto) REFERENCES productos(id_producto)
+);
